@@ -1,6 +1,6 @@
 # Hello gRPC Client React
 
-It is the Hello gRPC web client developed using React framework. It can be used to [Hello gRPC server](https://github.com/digital-worx/hello-grpc-node).
+It is the Hello gRPC web client developed using React framework. It can be used to interact with [Hello gRPC server](https://github.com/digital-worx/hello-grpc-node).
 
 ## Prerequisites
 
