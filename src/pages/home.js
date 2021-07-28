@@ -25,7 +25,7 @@ function Home() {
 
   function helloServer() {
     const hReq = new HelloRequest();
-    hReq.setName('GRPC React client')
+    hReq.setName('gRPC React client')
     grpcClient.helloServer(hReq, {}, (err, response) => {
       console.log(response)
       history.push({
@@ -41,7 +41,7 @@ function Home() {
         <img src={dwlogo} alt="logo" />
         <img src={logo} className="Home-logo" alt="logo" />
         <h1>
-          Hello GRPC React Client
+          Hello gRPC React Client
         </h1>
         <div className="grid-container">
           <div>
