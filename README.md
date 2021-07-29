@@ -43,7 +43,7 @@ Go to client root directory and generate the configs file as shown below.
 
 ```
 cd hello-grpc-react
-protoc -I. hello.proto -I$GOOGLEAPIS_DIR --js_out=import_style=commonjs,binary:generated --grpc-web_out=import_style=commonjs,mode=grpcwebtext:src/middleware
+protoc -I. hello.proto -I$GOOGLEAPIS_DIR --js_out=import_style=commonjs,binary:src/middleware --grpc-web_out=import_style=commonjs,mode=grpcwebtext:src/middleware
 ```
 
 Don't forget to add `/* eslint-disable */` at the beginning of both files.
